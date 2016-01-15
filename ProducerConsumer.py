@@ -22,7 +22,7 @@ threads = []
 currentTime = datetime.datetime.now()
 
 # Create a file object
-fout = open('osData.txt','a')
+fout = open('dataLog.txt','a')
 fout.write('#'*59)
 fout.write(' ')
 fout.write(str(currentTime))
